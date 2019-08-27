@@ -1,0 +1,37 @@
+/* 元素的模块化 按钮、列表、弹出框等等 */
+@import "./layout.scss";
+
+/* 按钮 */
+@mixin btn($size:14px,$color:#fff,$radius:5px,$bgColor:#eebb54,$padding:5px){
+  color: $color;
+  font-size: $size;
+  padding: $padding;
+  border-radius: $radius;
+  background-color: $bgColor;
+  line-height: 1;
+  display: inline-block;
+  text-align: center;
+}
+
+/* 列表 有横向和竖向  继承布局中的flex*/
+
+@mixin list($direction:column) {
+  @include flex($direction);
+}
+
+/* 面板 -- 很多内容都像一个头部有标题下部是内容的面板 所以抽象出来 */
+@mixin panel($bgColor:#fff,$padding:0,$margin:20px 0,$titlepadding:0 30px,$height:112px,$color:#333,$size:16px) {
+  background-color: $bgColor;
+  padding: $padding;
+  margin: $margin;
+  >h4{
+    text-align: center;
+    font-size: $size;
+    height: $height;
+    line-height: $height;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
