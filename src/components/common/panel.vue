@@ -1,6 +1,6 @@
 <template lang="html">
   <section :class="[defaultClass,className]">
-    <h4>- {{title}} -</h4>
+    <h4 v-if="hasTitle">- {{title}} -</h4>
     <slot/>
   </section>
 </template>
@@ -8,6 +8,10 @@
 <script>
   export default{
     props:{
+      hasTitle:{
+        type:Boolean,
+        default:true
+      },
       title:{
         type:String,
         default:""

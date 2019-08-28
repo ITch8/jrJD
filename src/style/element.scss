@@ -20,7 +20,7 @@
 }
 
 /* 面板 -- 很多内容都像一个头部有标题下部是内容的面板 所以抽象出来 */
-@mixin panel($bgColor:#fff,$padding:0,$margin:20px 0,$titlepadding:0 30px,$height:112px,$color:#333,$size:16px) {
+@mixin panel($bgColor:#fff,$padding:0 0 20px,$margin:0 0 10px,$titlepadding:0 30px,$height:56px,$color:#333,$size:16px) {
   background-color: $bgColor;
   padding: $padding;
   margin: $margin;
@@ -33,6 +33,6 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    margin: 0;
   }
 }
-
