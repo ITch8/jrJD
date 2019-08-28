@@ -1,6 +1,6 @@
 <template>
   <div>
-    <m-header :title="title"></m-header>
+    <m-header title="京东金融"></m-header>
     <slider :dataList="sliderList" :className="sliderClass"></slider>
     <items :items="dataList_1"></items>
     <product :dataList="dataList_2" ptitle="赏金任务"></product>
@@ -14,7 +14,7 @@
   import Items from '@/components/common/items.vue'
   import Panel from '@/components/common/panel.vue'
   import Slider from '@/components/common/slider.vue'
-  import Product from '@/components/product.vue'
+  import Product from '@/components/public/product.vue'
   export default {
     components: {
       mHeader,
@@ -25,7 +25,6 @@
     },
     data() {
       return {
-        title: "京东金融",
         sliderList: [{
           img: 'static/imgs/swiper_1.png'
         }, {

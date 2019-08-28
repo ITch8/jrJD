@@ -1,10 +1,12 @@
 <template lang="html">
   <section class="bottom">
     <div class="add-bottom">
-      <div class="bottom-item">
-        <img src="../../static/imgs/t_1.png" />
-        <p class="main-color">首页</p>
-      </div>
+      <router-link :to="{name:'/'}">
+        <div class="bottom-item">
+          <img src="../../static/imgs/t_1.png" />
+          <p class="main-color">首页</p>
+        </div>
+      </router-link>
       <div class="bottom-item">
         <img src="../../static/imgs/t_2.png" />
         <p>赚钱</p>

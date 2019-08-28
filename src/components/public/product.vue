@@ -1,4 +1,5 @@
 <!-- https://github.com/surmon-china/vue-awesome-swiper/blob/master/examples/15-freemode.vue -->
+<!-- 业务-产品组件 -->
 <template>
     <panel :title="ptitle">
       <slider :swiperOption="options" :dataList="dataList" :className="styleCls"></slider>
