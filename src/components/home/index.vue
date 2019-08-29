@@ -64,34 +64,42 @@
         dataList_1:[
           {
             img:'static/imgs/i_1.png',
+            path:'/coupon',
             title:'优惠券',
             desc:'30-10券'
           },{
             img:'static/imgs/i_2.png',
+            path:'/coupon',
             title:'领福利',
             desc:''
           },{
             img:'static/imgs/i_3.png',
+            path:'/coupon',
             title:'抢钢镚',
             desc:''
           },{
             img:'static/imgs/i_4.png',
+            path:'/coupon',
             title:'白条提额',
             desc:''
           },{
             img:'static/imgs/i_5.png',
+            path:'/coupon',
             title:'工资理财',
             desc:''
           },{
             img:'static/imgs/i_6.png',
+            path:'/coupon',
             title:'众筹',
             desc:''
           },{
             img:'static/imgs/i_7.png',
+            path:'/coupon',
             title:'免费领京豆',
             desc:''
           },{
             img:'static/imgs/i_8.png',
+            path:'/coupon',
             title:'免息红包',
             desc:''
           },

@@ -1,7 +1,7 @@
 <template lang="html">
   <panel :hasTitle="hasTitle" :className='cls'>
     <ul class="list">
-      <li v-for="(item,index) in items" :key="index" :class="[ items.length % 4 > 0?'col-5':'col-4','list-item' ]">
+      <li v-for="(item,index) in items" :key="index" :class="[ items.length % 4 > 0?'col-5':'col-4','list-item' ]" @click="navTo(item.path)">
         <div class="img-wrap">
           <img class="img" :src="item.img" />
           <span class="title">{{item.title}}</span>
@@ -31,6 +31,11 @@
       return {
         hasTitle: false,
         cls:'cls'
+      }
+    },
+    methods:{
+      navTo(path) {
+        this.$router.replace(path)
       }
     }
   }

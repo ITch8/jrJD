@@ -1,14 +1,14 @@
 <template lang="html">
   <section class="bottom">
     <div class="add-bottom">
-      <router-link :to="{name:'home'}" class="bottom-item">
-          <img src="../../../static/imgs/t_1.png" />
-          <p class="main-color">首页</p>
-      </router-link>
-      <router-link :to="{name:'money'}" class="bottom-item">
+      <div class="bottom-item" :class="{ 'main-color':'/home' === $route.path}" @click="navTo('/home')">
+        <img src="../../../static/imgs/t_1.png" />
+        <p>首页</p>
+      </div>
+      <div class="bottom-item" :class="{ 'main-color':'/money' === $route.path}" @click="navTo('/money')">
         <img src="../../../static/imgs/t_2.png" />
         <p>赚钱</p>
-      </router-link>
+      </div>
       <div class="bottom-item">
         <img src="../../../static/imgs/t_3.png" />
         <p>借钱</p>
@@ -26,6 +26,19 @@
 </template>
 
 <script>
+  export default {
+    name: 'tabbar',
+    data() {
+      return {}
+    },
+    methods: {
+      navTo(path) {
+        if(this.$route.path != path){
+          this.$router.replace(path)
+        }
+      }
+    }
+  }
 </script>
 
 <style lang="scss">
@@ -79,7 +92,9 @@
       }
 
       .main-color {
-        color: $maincolor;
+        p {
+          color: $maincolor;
+        }
       }
     }
   }
