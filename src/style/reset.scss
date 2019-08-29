@@ -6,3 +6,10 @@ ul{
   margin: 0;
   padding: 0;
 }
+p{
+  margin: 0;
+}
+
+a:-webkit-any-link{
+  text-decoration: none;
+}

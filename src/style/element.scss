@@ -1,6 +1,11 @@
 /* 元素的模块化 按钮、列表、弹出框等等 */
 @import "./layout.scss";
 
+$maincolor:#ffbb2f;
+$bgcolor:#f5f5f5;
+$width-col4:25%;
+$width-col5:20%;
+
 /* 按钮 */
 @mixin btn($size:14px,$color:#fff,$radius:5px,$bgColor:#eebb54,$padding:5px){
   color: $color;
@@ -37,4 +42,7 @@
   }
 }
 
-$maincolor:#ffbb2f;
+@mixin bottomBom($mgbottom:50px) {
+  display: block;
+  height: $mgbottom;
+}

@@ -22,9 +22,6 @@
 </script>
 
 <style lang="scss">
-
-  @import "@/style/reset.scss";
-
   .m_common_header2 {
       width: 100%;
       min-height: 44px;
@@ -53,10 +50,13 @@
                   margin: 12px 0 0 10px;
                   width: 20px;
                   height: 20px;
-                  background: url() no-repeat center;
+                  background: url('~static/imgs/back.png') no-repeat center;
                   background-position: 0 0;
                   -webkit-background-size: contain;
                   background-size: contain;
+                  overflow: hidden;
+                  text-indent: -100px;
+                  display: block;
               }
               .jd-header-new-title {
                   margin: 0 70px;

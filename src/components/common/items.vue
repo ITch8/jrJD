@@ -1,7 +1,7 @@
 <template lang="html">
-  <panel :hasTitle="hasTitle">
+  <panel :hasTitle="hasTitle" :className='cls'>
     <ul class="list">
-      <li class="list-item" v-for="(item,index) in items" :key="index">
+      <li v-for="(item,index) in items" :key="index" :class="[ items.length % 4 > 0?'col-5':'col-4','list-item' ]">
         <div class="img-wrap">
           <img class="img" :src="item.img" />
           <span class="title">{{item.title}}</span>
@@ -29,7 +29,8 @@
     },
     data() {
       return {
-        hasTitle: false
+        hasTitle: false,
+        cls:'cls'
       }
     }
   }
@@ -37,31 +38,38 @@
 
 <style lang="scss">
   @import '@/style/element.scss';
-
   .panel {
     @include panel;
+  }
+
+  .cls{
+    padding: 0 !important;
   }
 
   .list {
     @include list(row);
     width: 100%;
-    min-height: 220px;
+    min-height: 85px;
     padding: 15px 0 0;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
 
+    .col-5{
+      width: $width-col5;
+    }
+    .col-4{
+      width: $width-col4;
+    }
     .list-item {
       display: flex;
       height: inherit;
       text-align: center;
-      width: 25%;
 
       .img {
         width: 100%;
-        max-width: 45px;
-        display: block;
+        max-width: 40px;
       }
 
       .img-wrap {

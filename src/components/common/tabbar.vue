@@ -1,26 +1,24 @@
 <template lang="html">
   <section class="bottom">
     <div class="add-bottom">
-      <router-link :to="{name:'/'}">
-        <div class="bottom-item">
-          <img src="../../static/imgs/t_1.png" />
+      <router-link :to="{name:'home'}" class="bottom-item">
+          <img src="../../../static/imgs/t_1.png" />
           <p class="main-color">首页</p>
-        </div>
+      </router-link>
+      <router-link :to="{name:'money'}" class="bottom-item">
+        <img src="../../../static/imgs/t_2.png" />
+        <p>赚钱</p>
       </router-link>
       <div class="bottom-item">
-        <img src="../../static/imgs/t_2.png" />
-        <p>赚钱</p>
-      </div>
-      <div class="bottom-item">
-        <img src="../../static/imgs/t_3.png" />
+        <img src="../../../static/imgs/t_3.png" />
         <p>借钱</p>
       </div>
       <div class="bottom-item">
-        <img src="../../static/imgs/t_4.png" />
+        <img src="../../../static/imgs/t_4.png" />
         <p>省钱</p>
       </div>
       <div class="bottom-item">
-        <img src="../../static/imgs/t_5.png" />
+        <img src="../../../static/imgs/t_5.png" />
         <p>金融会员</p>
       </div>
     </div>
@@ -67,8 +65,8 @@
       position: relative;
 
       img {
-        width: 22px;
-        margin: 6px auto 3px;
+        width: 28px;
+        margin: 0 auto -4px;
       }
 
       p {

@@ -6,6 +6,7 @@
     <product :dataList="dataList_2" ptitle="赏金任务"></product>
     <product :dataList="dataList" ptitle="保险保障"></product>
     <product :dataList="dataList_3" ptitle="众筹新品"></product>
+    <m-footer></m-footer>
   </div>
 </template>
 
@@ -15,13 +16,15 @@
   import Panel from '@/components/common/panel.vue'
   import Slider from '@/components/common/slider.vue'
   import Product from '@/components/public/product.vue'
+  import MFooter from '@/components/common/mFooter.vue'
   export default {
     components: {
       mHeader,
       Panel,
       Slider,
       Product,
-      Items
+      Items,
+      MFooter
     },
     data() {
       return {
