@@ -1,21 +1,21 @@
 <template lang="html">
   <section class="bottom">
     <div class="add-bottom">
-      <div class="bottom-item" :class="{ 'main-color':'/home' === $route.path}" @click="navTo('/home')">
+      <div class="bottom-item" @click="navTo('/home')">
         <img src="../../../static/imgs/t_1.png" />
-        <p>首页</p>
+        <p :class="{ 'main-color':'/home' === $route.path}">首页</p>
       </div>
-      <div class="bottom-item" :class="{ 'main-color':'/money' === $route.path}" @click="navTo('/money')">
+      <div class="bottom-item"  @click="navTo('/money')">
         <img src="../../../static/imgs/t_2.png" />
-        <p>赚钱</p>
+        <p :class="{ 'main-color':'/money' === $route.path}">赚钱</p>
       </div>
       <div class="bottom-item">
         <img src="../../../static/imgs/t_3.png" />
         <p>借钱</p>
       </div>
-      <div class="bottom-item">
+      <div class="bottom-item" @click="navTo('/save_money')">
         <img src="../../../static/imgs/t_4.png" />
-        <p>省钱</p>
+        <p :class="{ 'main-color':'/save_money' === $route.path}">省钱</p>
       </div>
       <div class="bottom-item">
         <img src="../../../static/imgs/t_5.png" />
@@ -70,11 +70,7 @@
       display: block;
       text-align: center;
       flex: 1;
-      -ms-flex: 1;
-      -webkit-flex: 1;
       box-flex: 1;
-      -ms-box-flex: 1;
-      -webkit-box-flex: 1;
       position: relative;
 
       img {
@@ -92,9 +88,7 @@
       }
 
       .main-color {
-        p {
           color: $maincolor;
-        }
       }
     }
   }

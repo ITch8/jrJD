@@ -2,8 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/home/index.vue'
 import Money from '@/components/money/index.vue'
-import Coupon from '@/components/coupon/index.vue'
-
+import SaveMoney from '@/components/save_money/index.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -24,9 +23,9 @@ export default new Router({
       component:Money
     },
     {
-      path:'/coupon',
-      name:'coupon',
-      component:Coupon
+      path:'/save_money',
+      name:'save_money',
+      component:SaveMoney
     }
   ]
 })

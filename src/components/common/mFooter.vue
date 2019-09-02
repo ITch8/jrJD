@@ -1,9 +1,9 @@
 <template lang="html">
-  <div class="footer">
-    <div class="copyright">
+  <div :class="$style.footer">
+    <div :class="$style.copyright">
       <p>Copyright © 2004-2018 京东JD.com 版权所有</p>
     </div>
-    <div class="copyright">
+    <div :class="$style.copyright">
       <p>投资有风险，购买需谨慎</p>
       <p>京东金融平台服务协议</p>
       <p>京东金融隐私政策</p>
@@ -22,15 +22,13 @@
   }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" module>
   @import '@/style/element.scss';
 
   .footer {
     background-color: $bgcolor;
-
     .copyright {
       min-height: 36px;
-
       p {
         font-size: 12px;
         line-height: 1.6;
@@ -39,7 +37,6 @@
         color: #999;
         position: relative;
         box-sizing: border-box;
-
         &:before {
           position: absolute;
           top: 0;
