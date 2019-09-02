@@ -1,6 +1,6 @@
 <template>
-  <section class="floor">
-	  <div class="fixtop">
+  <section :class="$style.floor">
+	  <div :class="$style.fixtop">
 		  <img src="../../../static/imgs/adv_top.png" />
 	  </div>
   </section>
@@ -8,25 +8,18 @@
 
 <script>
   export default {
-    name:'adv-top',
-    data() {
-      return {
-
-      }
-    }
+    name:'adv-top'
   }
 </script>
 
-<style lang="scss">
+<style lang="scss" module>
   .floor {
-    padding-bottom: 1.25rem;
     background-color: #fff;
     clear: both;
     overflow: hidden;
     .fixtop {
-        max-width: 42.6875rem;
         margin: 0 auto;
-        height: 3.75rem;
+        height: 50px;
         position: fixed;
         top: 45px;
         left: 0;

@@ -1,9 +1,9 @@
 <!-- 赚钱页面 对赏金任务、定期精选等相同模块的封装-->
 <template>
-  <section class="floor">
-    <div class="floor-title">
-      <div class="title">{{title}}</div>
-      <div v-if="subtitle != ''" class="subtitle">{{subtitle}}</div>
+  <section :class="$style.floor">
+    <div :class="$style.floorTitle">
+      <div :class="$style.title">{{title}}</div>
+      <div v-if="subtitle != ''" :class="$style.subtitle">{{subtitle}}</div>
     </div>
     <slider :swiperOption="options" :dataList="dataList" className="styleCls"></slider>
   </section>
@@ -17,9 +17,9 @@
       Slider
     },
     props: {
-      dataList:{
-        type:Array,
-        default(){
+      dataList: {
+        type: Array,
+        default () {
           return []
         }
       },
@@ -31,9 +31,9 @@
         type: String,
         default: ''
       },
-      slidesPerView:{
-        type:String,
-        default:'2.3'
+      slidesPerView: {
+        type: String,
+        default: '2.3'
       }
     },
     data() {
@@ -52,48 +52,49 @@
   }
 </script>
 
-<style lang="scss">
-  .floor{
+<style lang="scss" module>
+  .floor {
     margin-bottom: 10px;
-  }
-  .floor-title {
-    font-family: PingFangSC-Semibold;
-    position: relative;
-    background: #fff;
 
-    .title-common {
-      max-width: 40%;
-      height: 3.75rem;
-      line-height: 3.75rem;
-      white-space: nowrap;
-      text-overflow: ellipsis;
-    }
+    .floorTitle {
+      font-family: PingFangSC-Semibold;
+      position: relative;
+      background: #fff;
 
-    .title {
-      @extend .title-common;
-      overflow: hidden;
-      font-size: 1.125rem;
-      font-weight: 700;
-      padding: 0 .9375rem;
-    }
+      .title-common {
+        height: 56px;
+        line-height: 56px;
+        padding: 0 16px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+      }
 
-    .subtitle {
-      @extend .title-common;
-      font-size: .75rem;
-      color: #999;
-      padding: 0 .75rem;
-      margin-right: .9375rem;
-      background: url('~static/imgs/more.png') 100% no-repeat;
-      background-size: .625rem .625rem;
-      position: absolute;
-      top: 0;
-      right: 0;
+      .title {
+        @extend .title-common;
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      .subtitle {
+        @extend .title-common;
+        font-size:14px;
+        color: #999;
+        background: url('/static/imgs/more.png') 100% no-repeat;
+        background-size: 9px 14px;
+        position: absolute;
+        top: 0;
+        right: 10px;
+      }
     }
   }
-
-  .styleCls{
-    margin: 0 10px 0 15px;
-    img{
+</style>
+<style lang="scss">
+  .styleCls {
+    margin: 0;
+    padding:  0 0 10px 10px;
+    background-color:#fff;
+    img {
       width: 100%;
       display: block;
     }

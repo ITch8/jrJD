@@ -29,9 +29,16 @@ exports.cssLoaders = function (options) {
     }
   }
 
+  const px2remLoader = {//px2rem 插件
+    loader:'px2rem-loader',
+    options:{
+      remUnit: 32
+    }
+  }
+
   // generate loader string to be used with extract text plugin
   function generateLoaders (loader, loaderOptions) {
-    const loaders = options.usePostCSS ? [cssLoader, postcssLoader] : [cssLoader]
+    const loaders = options.usePostCSS ? [cssLoader, postcssLoader,px2remLoader] : [cssLoader,px2remLoader]
 
     if (loader) {
       loaders.push({
@@ -60,7 +67,7 @@ exports.cssLoaders = function (options) {
     postcss: generateLoaders(),
     less: generateLoaders('less'),
     sass: generateLoaders('sass', { indentedSyntax: true }),
-    scss: generateLoaders('sass'),
+    scss: generateLoaders('sass',{ modules:true,localIdentName:'[local]_[hash:base64:8]' }),
     stylus: generateLoaders('stylus'),
     styl: generateLoaders('stylus')
   }

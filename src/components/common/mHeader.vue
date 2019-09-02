@@ -52,7 +52,6 @@
                   height: 20px;
                   background: url('~static/imgs/back.png') no-repeat center;
                   background-position: 0 0;
-                  -webkit-background-size: contain;
                   background-size: contain;
                   overflow: hidden;
                   text-indent: -100px;
@@ -66,7 +65,6 @@
                   text-align: center;
                   color: #333;
                   overflow: hidden;
-                  -o-text-overflow: ellipsis;
                   text-overflow: ellipsis;
                   white-space: nowrap;
               }

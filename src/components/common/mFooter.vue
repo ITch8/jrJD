@@ -48,11 +48,8 @@
           height: 1px;
           display: block;
           transform: scaleY(.5);
-          -webkit-transform-origin: 0 0;
           transform-origin: 0 0;
           background: #DDD;
-          -webkit-transform: scaleY(.5);
-          -ms-transform: scaleY(.5);
           content: '';
         }
       }

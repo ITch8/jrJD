@@ -1,9 +1,9 @@
 <template>
-  <section class="floor">
-    <div class="floor-title" v-if="title != ''">
-      <div class="title">{{title}}</div>
+  <section :class="$style.floor">
+    <div :class="$style.floorTitle" v-if="title != ''">
+      <div :class="$style.title">{{title}}</div>
     </div>
-    <img :src="imgUrl" class="adv-img" />
+    <img :src="imgUrl" :class="$style.advImg" />
   </section>
 </template>
 
@@ -27,33 +27,32 @@
   }
 </script>
 
-<style lang="scss">
+<style lang="scss" module>
   .floor {
     background-color: #fff;
     clear: both;
     overflow: hidden;
-    padding:10px 0;
+    padding:  0 0 10px;
 
-    .floor-title {
+    .advImg {
+      width: 100%;
+    }
+
+    .floorTitle {
       font-family: PingFangSC-Semibold;
       position: relative;
       background: #fff;
 
       .title {
-        max-width: 40%;
-        height: 3.75rem;
-        line-height: 3.75rem;
+        height: 50px;
+        line-height: 50px;
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
-        font-size: 1.125rem;
+        font-size: 16px;
         font-weight: 700;
-        padding: 0 .9375rem;
+        padding: 10px;
       }
     }
-  }
-
-  .adv-img {
-    width: 100%;
   }
 </style>

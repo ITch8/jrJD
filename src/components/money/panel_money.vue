@@ -86,22 +86,20 @@
     .title {
       @extend .title-common;
       overflow: hidden;
-      font-size: 1.125rem;
+      font-size: 16px;
       font-weight: 700;
       padding: 0 .9375rem;
     }
 
     .subtitle {
       @extend .title-common;
-      font-size: .75rem;
+      font-size:14px;
       color: #999;
-      padding: 0 .75rem;
-      margin-right: .9375rem;
-      background: url('~static/imgs/more.png') 100% no-repeat;
-      background-size: .625rem .625rem;
+      background: url('/static/imgs/more.png') 100% no-repeat;
+      background-size: 9px 14px;
       position: absolute;
       top: 0;
-      right: 0;
+      right: 10px;
     }
   }
 

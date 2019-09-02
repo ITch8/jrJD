@@ -50,9 +50,6 @@
   }
 </script>
 
-<style lang="scss">
+<style>
   @import 'swiper/dist/css/swiper.css';
-
-
-
 </style>

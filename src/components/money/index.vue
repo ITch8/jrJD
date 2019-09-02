@@ -120,6 +120,7 @@
   }
 
   .slider {
+    margin-top:25px;
     img {
       width: 100%;
     }

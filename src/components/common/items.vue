@@ -43,10 +43,6 @@
 
 <style lang="scss">
   @import '@/style/element.scss';
-  .panel {
-    @include panel;
-  }
-
   .cls{
     padding: 0 !important;
   }
@@ -56,7 +52,6 @@
     width: 100%;
     min-height: 85px;
     padding: 15px 0 0;
-    display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -78,7 +73,7 @@
       }
 
       .img-wrap {
-        margin: 0 auto;
+        margin: 0 auto 6px;
       }
 
       .title {
