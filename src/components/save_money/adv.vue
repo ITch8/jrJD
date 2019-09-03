@@ -38,7 +38,6 @@
     clear: both;
     overflow: hidden;
     padding: 0 0 10px;
-
     .advImg {
       width: 100%;
     }

@@ -39,18 +39,21 @@
 
   .list {
     @include list(row);
-    margin-bottom:10px;
+    padding:0 10px 10px;
+    box-shadow: 0 5px 8px 0 rgba(61,63,83,.12);
+   border-radius: 10px;
+   background-color:#fff;
+   margin:0 0 10px;
     >li {
       display: inline-flex;
       flex-wrap: wrap;
       justify-content: center;
-      width: 33%;
+      width: 33.333333%;
       background-color: #fff;
 
       .item {
-        margin: 5px 5px;
         >img {
-          width: 100%;
+          width: 90%;
         }
 
         .itemG {

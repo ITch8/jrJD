@@ -18,13 +18,14 @@
         </div>
       </li>
     </ul>
+    <div :class="$style.bottomLine">我也是有底线的</div>
   </section>
 
 </template>
 
 <script>
   export default {
-    props:{
+    props: {
       title: {
         type: String,
         default: ''
@@ -42,7 +43,7 @@
 
 
   .floor {
-    margin-bottom: 10px;
+    background: #fff;
 
     .floorTitle {
       font-family: PingFangSC-Semibold;
@@ -66,7 +67,7 @@
 
       .subtitle {
         @extend .title-common;
-        font-size:14px;
+        font-size: 14px;
         color: #999;
         background: url('/static/imgs/more.png') 100% no-repeat;
         background-size: 9px 14px;
@@ -79,6 +80,9 @@
 
   .list {
     @include list(row);
+    padding: 0 5px;
+    background: #fff;
+
     >li {
       display: inline-flex;
       flex-wrap: wrap;
@@ -87,12 +91,14 @@
 
       .item {
         margin: 5px 5px;
+
         >img {
           width: 100%;
         }
 
         .itemG {
-          padding:5px;
+          padding: 5px;
+
           .itemName {
             font-size: 14px;
             font-family: PingFangSC-Regular;
@@ -148,6 +154,34 @@
           }
         }
       }
+    }
+  }
+
+  .after-before {
+    content: "";
+    width: 40px;
+    border-top: 1px solid #ccc;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 20px;
+  }
+
+  .bottomLine {
+    color: #ccc;
+    display: block;
+    padding: 35px 0;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 12px;
+
+    &:after {
+      @extend .after-before;
+      margin-left: 7px;
+    }
+
+    &:before {
+      @extend .after-before;
+      margin-right: 7px;
     }
   }
 </style>
