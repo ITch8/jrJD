@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '@/components/home/index.vue'
 import Money from '@/components/money/index.vue'
 import SaveMoney from '@/components/save_money/index.vue'
+import BorrowMoney from '@/components/borrow_money/index.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -14,7 +15,6 @@ export default new Router({
     },
     {
       path: '/home',
-      name: 'home',
       component: Home
     },
     {
@@ -26,6 +26,11 @@ export default new Router({
       path:'/save_money',
       name:'save_money',
       component:SaveMoney
+    },
+    {
+      path:'/borrow_money',
+      name:'borrow_money',
+      component:BorrowMoney
     }
   ]
 })

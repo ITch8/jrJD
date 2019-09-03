@@ -9,7 +9,7 @@
         <img src="../../../static/imgs/t_2.png" />
         <p :class="{ 'main-color':'/money' === $route.path}">赚钱</p>
       </div>
-      <div class="bottom-item">
+      <div class="bottom-item" @click="navTo('/borrow_money')">
         <img src="../../../static/imgs/t_3.png" />
         <p>借钱</p>
       </div>
