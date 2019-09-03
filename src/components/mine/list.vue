@@ -190,10 +190,9 @@
         width: 100%;
         height: 1px;
         display: block;
-        background: #eee;
+        background: #dedede;
         transform: scaleY(.5);
         transform-origin: left bottom;
-        margin-left: 56px;
         bottom: 1px;
       }
 

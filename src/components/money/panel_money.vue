@@ -112,7 +112,7 @@
     clear: none;
     color: #fff;
     padding: 0 .5rem 0 .9375rem;
-    height: 8.125rem;
+    height: 110px;
     position: relative;
     box-sizing: border-box;
     z-index: 2;

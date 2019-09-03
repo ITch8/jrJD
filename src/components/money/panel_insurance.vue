@@ -81,13 +81,13 @@
 
       .title {
         @extend .title-common;
-       font-size: 16px;
-       font-weight: 700;
+        font-size: 16px;
+        font-weight: 700;
       }
 
       .subtitle {
         @extend .title-common;
-        font-size:14px;
+        font-size: 14px;
         color: #999;
         background: url('/static/imgs/more.png') 100% no-repeat;
         background-size: 9px 14px;
@@ -101,6 +101,7 @@
 <style lang="scss">
   .baoxian {
     width: 34%;
+    background-color: #fff;
 
     @media screen and (max-width: 360px) {
       width: 40%;
@@ -109,11 +110,11 @@
     float: left;
     clear: none;
     color: #fff;
-    padding: 0 .5rem 0 .9375rem;
-    height: 8.125rem;
+    padding: 0 8px 0 10px;
+    height: 130px;
     position: relative;
     box-sizing: border-box;
-    border-radius: .125rem;
+    border-radius: 2px;
     z-index: 2;
 
     .bs-title-common {
@@ -125,7 +126,7 @@
     }
 
     .btn-label {
-      font-size: .625rem;
+      font-size: 12px;
       color: #fff;
       text-align: center;
       white-space: nowrap;
@@ -135,57 +136,57 @@
     }
 
     .wrap {
-      width: 6.625rem;
-      height: 8.125rem;
+      width: 120px;
+      height: 130px;
       overflow: hidden;
       box-shadow: 0 0 0.625rem 0.03125rem rgba(101, 118, 155, .15);
 
       .sb-title {
         @extend .bs-title-common;
         font-family: PingFangSC-Semibold;
-        font-size: .75rem;
+        font-size: 12px;
         color: #000;
-        height: 1.0625rem;
-        line-height: 1.0625rem;
-        margin-bottom: .75rem;
+        height: 35px;
+        line-height: 35px;
+        margin-bottom: 10px;
       }
 
       .b-title {
         @extend .bs-title-common;
         font-family: DIN-Bold;
-        font-size: 1.5625rem;
+        font-size: 18px;
         color: #1bd5c7;
-        height: 1.9375rem;
-        line-height: 1.9375rem;
-        margin: 1.9375rem auto .125rem;
+        height: 20px;
+        line-height: 20px;
+        margin: 20px auto 2px;
       }
 
       .label {
         @extend .btn-label;
         font-family: PingFangSC-Semibold;
-        height: 1rem;
-        line-height: 1rem;
+        height: 13px;
+        line-height: 13px;
         background: #000;
         position: absolute;
         top: 0;
-        left: .9375rem;
+        left: 10px;
         display: block;
       }
 
       .btn {
         @extend .btn-label;
         font-family: PingFangSC-Medium;
-        width: 4.375rem;
+        width: 60px;
         margin: 0 auto;
-        height: 1.5625rem;
-        line-height: 1.5625rem;
+        height: 20px;
+        line-height: 20px;
         background: #1bd5c7;
-        border-radius: .9375rem;
+        border-radius: 10px;
 
         @media screen and (max-width: 360px) {
-          min-width: 3.75rem;
-          height: 1.5625rem;
-          line-height: 1.5625rem;
+          min-width: 40px;
+          height: 20px;
+          line-height: 40px;
           text-align: center;
         }
       }
@@ -194,6 +195,7 @@
 
   .iconsix {
     width: 66%;
+    background-color: #fff;
 
     @media screen and (max-width: 360px) {
       width: 60%;
@@ -201,42 +203,42 @@
 
     float: left;
     clear: none;
-    padding: 0 .9375rem 0 0;
-    height: 8.125rem;
+    padding: 0 10px 0 0;
+    height: 130px;
     position: relative;
     box-sizing: border-box;
     z-index: 2;
-    border-radius: .125rem;
+    border-radius: 2px;
 
     .wrap {
       font-family: STHeitiSC-Medium;
-      font-size: .75rem;
-      height: 8.125rem;
-      border-radius: .125rem;
+      font-size: 12px;
+      height: 192px;
+      border-radius: 5px;
       overflow: hidden;
       box-sizing: border-box;
-      box-shadow: 0 0 0.625rem 0.03125rem rgba(101, 118, 155, .15);
+      box-shadow: 0 0 6px 1px rgba(101, 118, 155, .15);
 
       .item {
         width: 33.33%;
-        height: 4.0625rem;
+        height: 60px;
         text-align: center;
         float: left;
         overflow: hidden;
 
         .icon {
-          width: 1.75rem;
-          height: 1.75rem;
-          margin: .625rem auto .0625rem;
+          width: 24px;
+          height: 24px;
+          margin: 8px auto 2px;
         }
 
         .i-title {
           font-family: PingFangSC-Regular;
-          font-size: .75rem;
+          font-size: 12px;
           white-space: nowrap;
           text-overflow: ellipsis;
           overflow: hidden;
-          padding: 0 .375rem;
+          padding: 0 4px;
         }
       }
     }
