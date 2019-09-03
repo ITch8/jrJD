@@ -2,7 +2,7 @@
 <!-- 业务-产品组件 -->
 <template>
     <panel :title="ptitle">
-      <slider :swiperOption="options" :dataList="dataList" :className="styleCls"></slider>
+      <slider :swiperOption="options" :dataList="dataList" :className="$style.styleCls"></slider>
     </panel>
 </template>
 
@@ -44,7 +44,7 @@
   }
 </script>
 
-<style lang="scss">
+<style lang="scss" module>
 .styleCls{
   margin: 0 10px 0 15px;
   img{

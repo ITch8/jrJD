@@ -11,15 +11,15 @@
       </div>
       <div class="bottom-item" @click="navTo('/borrow_money')">
         <img src="../../../static/imgs/t_3.png" />
-        <p>借钱</p>
+        <p :class="{ 'main-color':'/borrow_money' === $route.path}">借钱</p>
       </div>
       <div class="bottom-item" @click="navTo('/save_money')">
         <img src="../../../static/imgs/t_4.png" />
         <p :class="{ 'main-color':'/save_money' === $route.path}">省钱</p>
       </div>
-      <div class="bottom-item">
+      <div class="bottom-item" @click="navTo('/mine')">
         <img src="../../../static/imgs/t_5.png" />
-        <p>金融会员</p>
+        <p :class="{ 'main-color':'/mine' === $route.path}">金融会员</p>
       </div>
     </div>
   </section>

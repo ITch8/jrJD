@@ -4,6 +4,8 @@ import Home from '@/components/home/index.vue'
 import Money from '@/components/money/index.vue'
 import SaveMoney from '@/components/save_money/index.vue'
 import BorrowMoney from '@/components/borrow_money/index.vue'
+import Mine from '@/components/mine/index.vue'
+
 Vue.use(Router)
 
 export default new Router({
@@ -31,6 +33,11 @@ export default new Router({
       path:'/borrow_money',
       name:'borrow_money',
       component:BorrowMoney
+    },
+    {
+      path:'/mine',
+      name:'mine',
+      component:Mine
     }
   ]
 })
