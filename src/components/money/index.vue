@@ -8,7 +8,6 @@
     <panel title='赏金任务' subtitle='查看更多任务' :dataList="dataList_p" slidesPerView='2.6'></panel>
     <adv title='' :imgUrl="imgUrl_2"></adv>
     <panel title='银行精选' subtitle='更多银行服务' :dataList="dataList_bank" slidesPerView='2.5'></panel>
-    <panel-money title="白条" subtitle="年轻不留白"></panel-money>
     <adv title='' :imgUrl="imgUrl_4"></adv>
     <panel title='定期精选' subtitle='查看更多精选' :dataList="dataList_new" slidesPerView='2.5'></panel>
     <panel-insurance title="保险保障" subtitle=""></panel-insurance>
@@ -26,7 +25,6 @@
   import Adv from '@/components/money/adv.vue'
   import Panel from '@/components/money/panel.vue'
   import AdvTop from '@/components/money/adv_top.vue'
-  import PanelMoney from '@/components/money/panel_money.vue'
   import PanelInsurance from '@/components/money/panel_insurance.vue'
 
   export default {
@@ -37,7 +35,6 @@
       Items,
       Adv,
       AdvTop,
-      PanelMoney,
       PanelInsurance
     },
     data() {

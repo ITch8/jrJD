@@ -111,7 +111,7 @@
     clear: none;
     color: #fff;
     padding: 0 8px 0 10px;
-    height: 130px;
+    height: 150px;
     position: relative;
     box-sizing: border-box;
     border-radius: 2px;
@@ -137,17 +137,17 @@
 
     .wrap {
       width: 120px;
-      height: 130px;
+      height: 150px;
       overflow: hidden;
-      box-shadow: 0 0 0.625rem 0.03125rem rgba(101, 118, 155, .15);
+      box-shadow: 0 0 5px 1px rgba(101, 118, 155, .15);
 
       .sb-title {
         @extend .bs-title-common;
         font-family: PingFangSC-Semibold;
         font-size: 12px;
         color: #000;
-        height: 35px;
-        line-height: 35px;
+        height: 45px;
+        line-height: 45px;
         margin-bottom: 10px;
       }
 
@@ -186,7 +186,7 @@
         @media screen and (max-width: 360px) {
           min-width: 40px;
           height: 20px;
-          line-height: 40px;
+          line-height: 20px;
           text-align: center;
         }
       }

@@ -111,35 +111,35 @@
     float: left;
     clear: none;
     color: #fff;
-    padding: 0 .5rem 0 .9375rem;
-    height: 110px;
+    padding: 0 5px 0 10px;
+    height: 150px;
     position: relative;
     box-sizing: border-box;
     z-index: 2;
-    border-radius: .125rem;
+    border-radius: 3rem;
 
     .wrap {
-      width: 6.625rem;
-      height: 8.125rem;
+      width: 120px;
+      height: 180px;
       overflow: hidden;
-      box-shadow: 0 0 0.625rem 0.03125rem rgba(101, 118, 155, .15);
+     box-shadow: 0 0 5px 1px rgba(101, 118, 155, .15);
 
       .circle {
-        width: 5.75rem;
-        height: 5.75rem;
-        margin: .5rem auto .4375rem;
+        width: 60px;
+        height: 60px;
+        margin: 5px auto 4px;
         position: relative;
         background: url('~static/imgs/bt_bg.png') top no-repeat;
         background-size: 100% auto;
 
         .credit {
           font-family: DIN-Bold;
-          font-size: 1.125rem;
+          font-size: 15px;
           display: block;
-          height: 1.375rem;
-          line-height: 1.375rem;
-          top: 1.25rem;
-          letter-spacing: -.05625rem;
+          height: 20px;
+          line-height: 20px;
+          top: 15px;
+          letter-spacing: -3px;
           width: 100%;
           text-align: center;
           position: absolute;
@@ -149,27 +149,27 @@
 
         .c-title {
           font-family: PingFangSC-Medium;
-          font-size: .75rem;
-          letter-spacing: -.0375rem;
-          height: 1.0625rem;
-          line-height: 1.0625rem;
-          top: 2.875rem;
+          font-size: 5px;
+          letter-spacing: -2p;
+          height: 15px;
+          line-height: 15px;
+          top: 30px;
         }
       }
 
       .btn {
         font-family: STHeitiSC-Medium;
-        font-size: .625rem;
+        font-size: 12px;
         background: #d4b575;
-        width: 4.375rem;
+        width: 60px;
         margin: 0 auto;
-        height: 1.5625rem;
-        line-height: 1.5625rem;
+        height: 60px;
+        line-height: 60px;
         text-align: center;
-        border-radius: .9375rem;
+        border-radius: 10px;
         position: relative;
         left: 0;
-        bottom: .9375rem;
+        bottom: 10px;
       }
     }
   }
@@ -181,42 +181,42 @@
     }
     float: left;
     clear: none;
-    padding: 0 .9375rem 0 0;
-    height: 8.125rem;
+    padding: 0 10px 0 0;
+    height: 180px;
     position: relative;
     box-sizing: border-box;
     z-index: 2;
-    border-radius: .125rem;
+    border-radius: 2px;
 
     .wrap {
       font-family: STHeitiSC-Medium;
-      font-size: .75rem;
-      height: 8.125rem;
-      border-radius: .125rem;
+      font-size: 12px;
+      height: 180px;
+      border-radius: 2px;
       overflow: hidden;
       box-sizing: border-box;
-      box-shadow: 0 0 0.625rem 0.03125rem rgba(101, 118, 155, .15);
+      box-shadow: 0 0 5px 1px rgba(101, 118, 155, .15);
 
       .item {
         width: 33.33%;
-        height: 4.0625rem;
+        height: 90px;
         text-align: center;
         float: left;
         overflow: hidden;
 
         .icon {
-          width: 1.75rem;
-          height: 1.75rem;
-          margin: .625rem auto .0625rem;
+          width: 15px;
+          height: 15px;
+          margin: 10px auto 10px;
         }
 
         .i-title {
           font-family: PingFangSC-Regular;
-          font-size: .75rem;
+          font-size: 12px;
           white-space: nowrap;
           text-overflow: ellipsis;
           overflow: hidden;
-          padding: 0 .375rem;
+          padding: 0 4px;
         }
       }
     }
