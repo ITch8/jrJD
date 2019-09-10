@@ -89,7 +89,7 @@
         @extend .title-common;
         font-size: 14px;
         color: #999;
-        background: url('/static/imgs/more.png') 100% no-repeat;
+        background: url('static/imgs/more.png') 100% no-repeat;
         background-size: 9px 14px;
         position: absolute;
         top: 0;
