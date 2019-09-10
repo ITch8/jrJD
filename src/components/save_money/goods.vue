@@ -29,8 +29,8 @@
 
   Vue.use(VueLazyload, {
     preLoad: 1.3,
-    error: '~static/imgs/default.png',
-    loading: '~static/imgs/default.png',
+    error: 'static/imgs/default.png',
+    loading: 'static/imgs/default.png',
     attempt: 1
   })
 

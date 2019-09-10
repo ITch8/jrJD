@@ -58,7 +58,7 @@
           margin: 12px 0 0 10px;
           width: 20px;
           height: 20px;
-          background: url('/static/imgs/back.png') no-repeat center;
+          background: url('static/imgs/back.png') no-repeat center;
           background-position: 0 0;
           background-size: contain;
           overflow: hidden;
