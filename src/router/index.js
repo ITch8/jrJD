@@ -1,43 +1,43 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/components/home/index.vue'
-import Money from '@/components/money/index.vue'
-import SaveMoney from '@/components/save_money/index.vue'
-import BorrowMoney from '@/components/borrow_money/index.vue'
-import Mine from '@/components/mine/index.vue'
 
 Vue.use(Router)
 
+
+//定义能够被webpack自动代码分割的异步组件 实现路由懒加载
+//封装一个函数
+function loadView(view) {
+  return () => import(/* webpackChunkName: "work" */ `@/components/${view}/index.vue`)
+}
+
 export default new Router({
-  routes: [
-    {
+  routes: [{
       path: '/',
-      name: 'home',
-      component: Home
+      redirect: '/home'
     },
     {
       path: '/home',
-      component: Home
+      component: loadView('home')
     },
     {
-      path:'/money',
-      name:'money',
-      component:Money
+      path: '/money',
+      name: 'money',
+      component: loadView('money')
     },
     {
-      path:'/save_money',
-      name:'save_money',
-      component:SaveMoney
+      path: '/save_money',
+      name: 'save_money',
+      component: loadView('save_money')
     },
     {
-      path:'/borrow_money',
-      name:'borrow_money',
-      component:BorrowMoney
+      path: '/borrow_money',
+      name: 'borrow_money',
+      component: loadView('borrow_money')
     },
     {
-      path:'/mine',
-      name:'mine',
-      component:Mine
+      path: '/mine',
+      name: 'mine',
+      component: loadView('mine')
     }
   ]
 })

@@ -81,7 +81,7 @@
     z-index: -1;
     width: 100%;
     height: 320px;
-    background-image: url('../../../static/imgs/save_s_bg.jpg');
+    background-image: url('static/imgs/save_s_bg.jpg');
     background-repeat: no-repeat;
     background-position: 0 -3.85rem;
     background-size: cover;
