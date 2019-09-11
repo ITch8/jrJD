@@ -3,8 +3,8 @@
     <div :class="$style.beneBanner"></div>
     <slider :dataList="sliderList" :className="$style.sliderClass" :swiperOption="options"></slider>
     <panel-award title='待领取福利' subtitle='签到领福利'></panel-award>
-    <adv imgUrl='static/imgs/s_adv.png'></adv>
-    <adv title='优享免息' subtitle='查看更多商品' imgUrl='static/imgs/s_mx.png'></adv>
+    <adv imgUrl='../../../static/imgs/s_adv.png'></adv>
+    <adv title='优享免息' subtitle='查看更多商品' imgUrl='../../../static/imgs/s_mx.png'></adv>
     <goods-discount></goods-discount>
     <panel title='省钱优惠券' subtitle='更多神券来这里抢' :dataList="dataList_p" slidesPerView='2.6'></panel>
     <panel title='优惠福利' subtitle='查看更多福利' :dataList="dataList_f" slidesPerView='2'></panel>
@@ -48,25 +48,25 @@
           notNextTick: false
         },
         sliderList: [{
-          img: 'static/imgs/save_s_1.png'
+          img: '../../../static/imgs/save_s_1.png'
         }, {
-          img: 'static/imgs/save_s_2.jpg'
+          img: '../../../static/imgs/save_s_2.jpg'
         }, {
-          img: 'static/imgs/save_s_3.png'
+          img: '../../../static/imgs/save_s_3.png'
         }, {
-          img: 'static/imgs/save_s_4.png'
+          img: '../../../static/imgs/save_s_4.png'
         }],
         dataList_p: [{
-          img: 'static/imgs/s_p_1.png'
+          img: '../../../static/imgs/s_p_1.png'
         }, {
-          img: 'static/imgs/s_p_2.png'
+          img: '../../../static/imgs/s_p_2.png'
         }, {
-          img: 'static/imgs/s_p_3.png'
+          img: '../../../static/imgs/s_p_3.png'
         }],
         dataList_f: [{
-          img: 'static/imgs/s_f_1.jpg'
+          img: '../../../static/imgs/s_f_1.jpg'
         }, {
-          img: 'static/imgs/s_f_2.png'
+          img: '../../../static/imgs/s_f_2.png'
         }]
       }
     }
@@ -81,7 +81,7 @@
     z-index: -1;
     width: 100%;
     height: 320px;
-    background-image: url('static/imgs/save_s_bg.jpg');
+    background-image: url('../../../static/imgs/save_s_bg.jpg');
     background-repeat: no-repeat;
     background-position: 0 -3.85rem;
     background-size: cover;

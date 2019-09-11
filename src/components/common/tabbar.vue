@@ -2,23 +2,23 @@
   <section class="bottom">
     <div class="add-bottom">
       <div class="bottom-item" @click="navTo('/home')">
-        <img src="static/imgs/t_1.png" />
+        <img src="../../../static/imgs/t_1.png" />
         <p :class="{ 'main-color':'/home' === $route.path}">首页</p>
       </div>
       <div class="bottom-item"  @click="navTo('/money')">
-        <img src="static/imgs/t_2.png" />
+        <img src="../../../static/imgs/t_2.png" />
         <p :class="{ 'main-color':'/money' === $route.path}">赚钱</p>
       </div>
       <div class="bottom-item" @click="navTo('/borrow_money')">
-        <img src="static/imgs/t_3.png" />
+        <img src="../../../static/imgs/t_3.png" />
         <p :class="{ 'main-color':'/borrow_money' === $route.path}">借钱</p>
       </div>
       <div class="bottom-item" @click="navTo('/save_money')">
-        <img src="static/imgs/t_4.png" />
+        <img src="../../../static/imgs/t_4.png" />
         <p :class="{ 'main-color':'/save_money' === $route.path}">省钱</p>
       </div>
       <div class="bottom-item" @click="navTo('/mine')">
-        <img src="static/imgs/t_5.png" />
+        <img src="../../../static/imgs/t_5.png" />
         <p :class="{ 'main-color':'/mine' === $route.path}">金融会员</p>
       </div>
     </div>

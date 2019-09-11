@@ -1,7 +1,7 @@
 <template>
   <section :class="$style.floor">
 	  <div :class="$style.fixtop">
-		  <img src="tatic/imgs/adv_top.png" />
+		  <img src="../../../static/imgs/adv_top.png" />
 	  </div>
   </section>
 </template>

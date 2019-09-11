@@ -15,37 +15,37 @@
           <div class="cardList">
             <div class="miniCardList">
               <div class="miniCard">
-                <img class="backimg" src="static/imgs/b_bg_list_1.png" />
+                <img class="backimg" src="../../../static/imgs/b_bg_list_1.png" />
                 <h3>最高可借</h3>
                 <div class="contentTitle">
                   <div class="contentNumber">200,000.00</div>
                 </div>
-                <img class="btnimg" src="static/imgs/b_bg_btn1.png" />
+                <img class="btnimg" src="../../../static/imgs/b_bg_btn1.png" />
               </div>
             </div>
             <div class="miniCardList">
               <div class="miniCard">
-                <img class="backimg" src="static/imgs/b_bg_list_2.png" />
+                <img class="backimg" src="../../../static/imgs/b_bg_list_2.png" />
                 <h3>最高可借</h3>
                 <div class="contentTitle">
                   <div class="contentNumber">300,000.00</div>
                 </div>
-                <img class="btnimg" src="static/imgs/b_bg_btn2.png" />
+                <img class="btnimg" src="../../../static/imgs/b_bg_btn2.png" />
               </div>
             </div>
             <div class="miniCardList">
               <div class="miniCard">
-                <img class="backimg" src="static/imgs/b_bg_list_3.png" />
+                <img class="backimg" src="../../../static/imgs/b_bg_list_3.png" />
                 <h3>最高可借</h3>
                 <div class="contentTitle">
                   <div class="contentNumber">500,000.00</div>
                 </div>
-                <img class="btnimg" src="static/imgs/b_bg_btn3.png" />
+                <img class="btnimg" src="../../../static/imgs/b_bg_btn3.png" />
               </div>
             </div>
             <div class="miniCardList">
               <div class="moreCard">
-                <img class="backimg" src="static/imgs/b_bg_list_4.png" />
+                <img class="backimg" src="../../../static/imgs/b_bg_list_4.png" />
               </div>
             </div>
           </div>
@@ -75,7 +75,7 @@
                 <p>当前收益最高产品</p>
               </div>
               <div class="bankAstRun bankAstRight">
-                <img src="static/imgs/b_bank_r.png" />
+                <img src="../../../static/imgs/b_bank_r.png" />
               </div>
             </div>
           </div>
@@ -92,7 +92,7 @@
                 <p>银行精选丨+3%奖励</p>
               </div>
               <div class="bankAstRun bankAstRight">
-                <img src="static/imgs/b_bank_r.png" />
+                <img src="../../../static/imgs/b_bank_r.png" />
               </div>
             </div>
           </div>
