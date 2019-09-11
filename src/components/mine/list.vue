@@ -18,14 +18,14 @@
     <div :class="$style.list">
       <div :class="$style.classify">
         <div :class="$style.icon">
-          <div :class="$style.imgwrap"> <img src="../../../static/imgs/mine_1.png" /> </div>
+          <div :class="$style.imgwrap"> <img src="static/imgs/mine_1.png" /> </div>
         </div>
         <div :class="$style.info"> <span class="$style.name">我的资产</span> </div>
         <div :class="$style.benifit">查看全部资产</div>
       </div>
       <div :class="$style.classify">
         <div :class="$style.icon">
-          <div :class="$style.imgwrap"> <img src="../../../static/imgs/mine_2.png" /> </div>
+          <div :class="$style.imgwrap"> <img src="static/imgs/mine_2.png" /> </div>
         </div>
         <div :class="$style.info"> <span class="$style.name">我的优惠券</span> </div>
         <div :class="$style.benifit">查看全部</div>
@@ -33,49 +33,49 @@
     </div>
     <div :class="$style.classify">
       <div :class="$style.icon">
-        <div :class="$style.imgwrap"> <img src="../../../static/imgs/mine_3.png" /> </div>
+        <div :class="$style.imgwrap"> <img src="static/imgs/mine_3.png" /> </div>
       </div>
       <div :class="$style.info"> <span class="$style.name">我的金条</span> </div>
       <div :class="$style.benifit">查看额度</div>
     </div>
     <div :class="$style.classify">
       <div :class="$style.icon">
-        <div :class="$style.imgwrap"> <img src="../../../static/imgs/mine_4.png" /> </div>
+        <div :class="$style.imgwrap"> <img src="static/imgs/mine_4.png" /> </div>
       </div>
       <div :class="$style.info"> <span class="$style.name">我的借钱</span> </div>
       <div :class="$style.benifit">查看全部产品</div>
     </div>
     <div :class="$style.classify">
       <div :class="$style.icon">
-        <div :class="$style.imgwrap"> <img src="../../../static/imgs/mine_5.png" /> </div>
+        <div :class="$style.imgwrap"> <img src="static/imgs/mine_5.png" /> </div>
       </div>
       <div :class="$style.info"> <span class="$style.name">我的白条</span> </div>
       <div :class="$style.benifit">去提额</div>
     </div>
     <div :class="$style.classify">
       <div :class="$style.icon">
-        <div :class="$style.imgwrap"> <img src="../../../static/imgs/mine_6.png" /> </div>
+        <div :class="$style.imgwrap"> <img src="static/imgs/mine_6.png" /> </div>
       </div>
       <div :class="$style.info"> <span class="$style.name">我的资产</span> </div>
       <div :class="$style.benifit">查看全部资产</div>
     </div>
     <div :class="$style.classify">
       <div :class="$style.icon">
-        <div :class="$style.imgwrap"> <img src="../../../static/imgs/mine_7.png" /> </div>
+        <div :class="$style.imgwrap"> <img src="static/imgs/mine_7.png" /> </div>
       </div>
       <div :class="$style.info"> <span class="$style.name">兑换优惠券</span> </div>
       <div :class="$style.benifit">去兑换</div>
     </div>
     <div :class="$style.classify">
       <div :class="$style.icon">
-        <div :class="$style.imgwrap"> <img src="../../../static/imgs/mine_8.png" /> </div>
+        <div :class="$style.imgwrap"> <img src="static/imgs/mine_8.png" /> </div>
       </div>
       <div :class="$style.info"> <span class="$style.name">我的保障</span> </div>
       <div :class="$style.benifit">全方位保障</div>
     </div>
     <div :class="$style.classify">
       <div :class="$style.icon">
-        <div :class="$style.imgwrap"> <img src="../../../static/imgs/mine_8.png" /> </div>
+        <div :class="$style.imgwrap"> <img src="static/imgs/mine_8.png" /> </div>
       </div>
       <div :class="$style.info"> <span class="$style.name">我的保障</span> </div>
       <div :class="$style.benifit">查看全部资产</div>
@@ -244,7 +244,7 @@
         max-width: 39%;
         padding: 0 18px 0 10px;
         margin-right: 16px;
-        background: url('../../../static/imgs/more.png') center right no-repeat;
+        background: url('static/imgs/more.png') center right no-repeat;
         background-size: 9px 15px;
         text-align: left;
         float: right;

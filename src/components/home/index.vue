@@ -29,76 +29,76 @@
     data() {
       return {
         sliderList: [{
-          img: '../../../static/imgs/swiper_1.png'
+          img: 'static/imgs/swiper_1.png'
         }, {
-          img: '../../../static/imgs/swiper_2.jpg'
+          img: 'static/imgs/swiper_2.jpg'
         }],
         sliderClass:'slider',
         dataList: [{
-          img: "../../../static/imgs/d_1.jpg"
+          img: "static/imgs/d_1.jpg"
         },{
-          img: "../../../static/imgs/d_2.jpg"
+          img: "static/imgs/d_2.jpg"
         },{
-          img: "../../../static/imgs/d_3.jpg"
+          img: "static/imgs/d_3.jpg"
         },{
-          img: "../../../static/imgs/d_4.jpg"
+          img: "static/imgs/d_4.jpg"
         },{
-          img: "../../../static/imgs/d_5.jpg"
+          img: "static/imgs/d_5.jpg"
         }],
         dataList_2: [{
-          img: "../../../static/imgs/1_1.png"
+          img: "static/imgs/1_1.png"
         },{
-          img: "../../../static/imgs/1_2.png"
+          img: "static/imgs/1_2.png"
         },{
-          img: "../../../static/imgs/1_3.png"
+          img: "static/imgs/1_3.png"
         },{
-          img: "../../../static/imgs/1_4.png"
+          img: "static/imgs/1_4.png"
         }],
         dataList_3: [{
-          img: "../../../static/imgs/2_1.jpg"
+          img: "static/imgs/2_1.jpg"
         },{
-          img: "../../../static/imgs/2_2.jpg"
+          img: "static/imgs/2_2.jpg"
         },{
-          img: "../../../static/imgs/2_3.jpg"
+          img: "static/imgs/2_3.jpg"
         }],
         dataList_1:[
           {
-            img:'../../../static/imgs/i_1.png',
+            img:'static/imgs/i_1.png',
             path:'/',
             title:'优惠券',
             desc:'30-10券'
           },{
-            img:'../../../static/imgs/i_2.png',
+            img:'static/imgs/i_2.png',
             path:'/',
             title:'领福利',
             desc:''
           },{
-            img:'../../../static/imgs/i_3.png',
+            img:'static/imgs/i_3.png',
             path:'/',
             title:'抢钢镚',
             desc:''
           },{
-            img:'../../../static/imgs/i_4.png',
+            img:'static/imgs/i_4.png',
             path:'/',
             title:'白条提额',
             desc:''
           },{
-            img:'../../../static/imgs/i_5.png',
+            img:'static/imgs/i_5.png',
             path:'/',
             title:'工资理财',
             desc:''
           },{
-            img:'../../../static/imgs/i_6.png',
+            img:'static/imgs/i_6.png',
             path:'/',
             title:'众筹',
             desc:''
           },{
-            img:'../../../static/imgs/i_7.png',
+            img:'static/imgs/i_7.png',
             path:'/',
             title:'免费领京豆',
             desc:''
           },{
-            img:'../../../static/imgs/i_8.png',
+            img:'static/imgs/i_8.png',
             path:'/',
             title:'免息红包',
             desc:''

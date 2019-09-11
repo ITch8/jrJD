@@ -71,7 +71,7 @@
         @extend .title-common;
         font-size: 14px;
         color: #999;
-        background: url('../../../static/imgs/more.png') 100% no-repeat;
+        background: url('static/imgs/more.png') 100% no-repeat;
         background-size: 9px 14px;
         position: absolute;
         top: 0;
@@ -85,7 +85,7 @@
     height: 110px;
     box-sizing: border-box;
     margin: 0 auto 10px;
-    background: url('../../../static/imgs/s_bg_award.png') no-repeat;
+    background: url('static/imgs/s_bg_award.png') no-repeat;
     background-size: cover;
     box-shadow: 0 5px 15px 0 rgba(61, 63, 83, .12);
     border-radius: 5px;

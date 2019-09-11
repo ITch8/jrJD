@@ -40,68 +40,68 @@
     data() {
       return {
         sliderList: [{
-          img: '../../../static/imgs/mb_1.jpg'
+          img: 'static/imgs/mb_1.jpg'
         }, {
-          img: '../../../static/imgs/mb_2.png'
+          img: 'static/imgs/mb_2.png'
         }],
         sliderClass:'slider',
         dataList_1:[
           {
-            img:'../../../static/imgs/mi_1.png',
+            img:'static/imgs/mi_1.png',
             title:'去赚钱',
             desc:''
           },{
-            img:'../../../static/imgs/mi_2.png',
+            img:'static/imgs/mi_2.png',
             title:'双签',
             desc:''
           },{
-            img:'../../../static/imgs/mi_3.png',
+            img:'static/imgs/mi_3.png',
             title:'优惠券',
             desc:''
           },{
-            img:'../../../static/imgs/mi_4.png',
+            img:'static/imgs/mi_4.png',
             title:'单单返',
             desc:''
           },{
-            img:'../../../static/imgs/mi_5.png',
+            img:'static/imgs/mi_5.png',
             title:'全部',
             desc:''
           }
         ],
-        imgUrl_1:"../../../static/imgs/adv1.jpg",
-        imgUrl_2:"../../../static/imgs/adv2.png",
-        imgUrl_3:"../../../static/imgs/adv3.jpg",
-        imgUrl_4:"../../../static/imgs/bt_adv.png",
-        imgUrl_5:"../../../static/imgs/insadv.jpg",
+        imgUrl_1:"static/imgs/adv1.jpg",
+        imgUrl_2:"static/imgs/adv2.png",
+        imgUrl_3:"static/imgs/adv3.jpg",
+        imgUrl_4:"static/imgs/bt_adv.png",
+        imgUrl_5:"static/imgs/insadv.jpg",
         dataList_p: [{
-          img: "../../../static/imgs/1_1.png"
+          img: "static/imgs/1_1.png"
         },{
-          img: "../../../static/imgs/1_2.png"
+          img: "static/imgs/1_2.png"
         },{
-          img: "../../../static/imgs/1_3.png"
+          img: "static/imgs/1_3.png"
         },{
-          img: "../../../static/imgs/1_4.png"
+          img: "static/imgs/1_4.png"
         }],
         dataList_bank:[{
-          img: "../../../static/imgs/bank1.png"
+          img: "static/imgs/bank1.png"
         },{
-          img: "../../../static/imgs/bank2.png"
+          img: "static/imgs/bank2.png"
         },{
-          img: "../../../static/imgs/bank3.png"
+          img: "static/imgs/bank3.png"
         }],
         dataList_new: [{
-          img: "../../../static/imgs/2_1.jpg"
+          img: "static/imgs/2_1.jpg"
         },{
-          img: "../../../static/imgs/2_2.jpg"
+          img: "static/imgs/2_2.jpg"
         },{
-          img: "../../../static/imgs/2_3.jpg"
+          img: "static/imgs/2_3.jpg"
         }],
         dataList_hot: [{
-          img: "../../../static/imgs/hot1.jpg"
+          img: "static/imgs/hot1.jpg"
         },{
-          img: "../../../static/imgs/hot2.jpg"
+          img: "static/imgs/hot2.jpg"
         },{
-          img: "../../../static/imgs/hot3.jpg"
+          img: "static/imgs/hot3.jpg"
         }]
       }
     }

@@ -16,27 +16,27 @@
     <div class="iconsix">
       <div class="wrap">
         <div class="item">
-          <img class="icon" src="../../../static/imgs/bt_1.png" />
+          <img class="icon" src="static/imgs/bt_1.png" />
           <p class="i-title">白条</p>
         </div>
         <div class="item">
-          <img class="icon" src="../../../static/imgs/bt_2.png" />
+          <img class="icon" src="static/imgs/bt_2.png" />
           <p class="i-title">还款</p>
         </div>
         <div class="item">
-          <img class="icon" src="../../../static/imgs/bt_3.png" />
+          <img class="icon" src="static/imgs/bt_3.png" />
           <p class="i-title">1元抢券</p>
         </div>
         <div class="item">
-          <img class="icon" src="../../../static/imgs/bt_4.png" />
+          <img class="icon" src="static/imgs/bt_4.png" />
           <p class="i-title">小白卡</p>
         </div>
         <div class="item">
-          <img class="icon" src="../../../static/imgs/bt_5.png" />
+          <img class="icon" src="static/imgs/bt_5.png" />
           <p class="i-title">金条</p>
         </div>
         <div class="item">
-          <img class="icon" src="../../../static/imgs/bt_6.png" />
+          <img class="icon" src="static/imgs/bt_6.png" />
           <p class="i-title">校园</p>
         </div>
       </div>
@@ -89,7 +89,7 @@
         @extend .title-common;
         font-size: 14px;
         color: #999;
-        background: url('../../../static/imgs/more.png') 100% no-repeat;
+        background: url('static/imgs/more.png') 100% no-repeat;
         background-size: 9px 14px;
         position: absolute;
         top: 0;
