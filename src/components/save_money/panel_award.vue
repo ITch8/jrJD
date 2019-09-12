@@ -85,7 +85,7 @@
     height: 110px;
     box-sizing: border-box;
     margin: 0 auto 10px;
-    background: url('static/imgs/s_bg_award.png') no-repeat;
+    background: url('https://u.jr.jd.com/growing/reMoney/images/welf_grouping_47978bb454.png') no-repeat;
     background-size: cover;
     box-shadow: 0 5px 15px 0 rgba(61, 63, 83, .12);
     border-radius: 5px;

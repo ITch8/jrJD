@@ -30,11 +30,11 @@
           img:'https://img10.360buyimg.com/mcmktadmin/jfs/t1/76174/31/2689/5280/5d104474E3b853a0a/d4c3c6ef12ea1a0d.png?width=220&height=225'
         }],
         dataList_f: [{
-          img: 'static/imgs/s_f_1.jpg'
+          img: 'https://img10.360buyimg.com/mcmktadmin/jfs/t1/46454/25/8916/42025/5d67a691E4902cc3a/2a0b076f4b7b388f.jpg?width=334&height=230'
         }, {
-          img: 'static/imgs/s_f_2.png'
+          img: 'https://img10.360buyimg.com/mcmktadmin/jfs/t1/64527/28/8566/11020/5d6769f3Ed3587e8f/2c9d36726c387702.png?width=334&height=230'
         }, {
-          img: 'static/imgs/s_f_1.jpg'
+          img: 'https://img10.360buyimg.com/mcmktadmin/jfs/t1/46454/25/8916/42025/5d67a691E4902cc3a/2a0b076f4b7b388f.jpg?width=334&height=230'
         }]
       }
     }

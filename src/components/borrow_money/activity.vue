@@ -15,37 +15,37 @@
           <div class="cardList">
             <div class="miniCardList">
               <div class="miniCard">
-                <img class="backimg" src="static/imgs/b_bg_list_1.png" />
+                <img class="backimg" src="https://img10.360buyimg.com/mcmktadmin/jfs/t1/18920/23/6104/23010/5c46e5c8E0923120d/230cc521dd45872c.png?width=470&height=288" />
                 <h3>最高可借</h3>
                 <div class="contentTitle">
                   <div class="contentNumber">200,000.00</div>
                 </div>
-                <img class="btnimg" src="static/imgs/b_bg_btn1.png" />
+                <img class="btnimg" src="https://img10.360buyimg.com/mcmktadmin/jfs/t1/10234/32/9757/2951/5c46e682E90bca4f4/a20724d3b7422931.png?width=207&height=82" />
               </div>
             </div>
             <div class="miniCardList">
               <div class="miniCard">
-                <img class="backimg" src="static/imgs/b_bg_list_2.png" />
+                <img class="backimg" src="https://img10.360buyimg.com/mcmktadmin/jfs/t1/18901/27/9143/4028/5c7c8c91E838787ee/378fb1ae1f789871.png?width=470&height=288" />
                 <h3>最高可借</h3>
                 <div class="contentTitle">
                   <div class="contentNumber">300,000.00</div>
                 </div>
-                <img class="btnimg" src="static/imgs/b_bg_btn2.png" />
+                <img class="btnimg" src="https://img10.360buyimg.com/mcmktadmin/jfs/t1/15338/23/9149/2906/5c7c8c83E327cc061/4c7d7f9861b0b16c.png?width=undefined&height=undefined" />
               </div>
             </div>
             <div class="miniCardList">
               <div class="miniCard">
-                <img class="backimg" src="static/imgs/b_bg_list_3.png" />
+                <img class="backimg" src="https://img10.360buyimg.com/mcmktadmin/jfs/t1/20694/12/6073/4122/5c46e77aEf7a2e925/b7ae0665b75e0c35.png?width=470&height=288" />
                 <h3>最高可借</h3>
                 <div class="contentTitle">
                   <div class="contentNumber">500,000.00</div>
                 </div>
-                <img class="btnimg" src="static/imgs/b_bg_btn3.png" />
+                <img class="btnimg" src="https://img10.360buyimg.com/mcmktadmin/jfs/t1/26632/40/6083/3396/5c46e6a7E7383a3fd/09e38521e5786037.png?width=207&height=82" />
               </div>
             </div>
             <div class="miniCardList">
               <div class="moreCard">
-                <img class="backimg" src="static/imgs/b_bg_list_4.png" />
+                <img class="backimg" src="https://img10.360buyimg.com/mcmktadmin/jfs/t1/9377/10/13456/11453/5c46e707E1c7d260b/793417bab3371381.png?width=242&height=288" />
               </div>
             </div>
           </div>
