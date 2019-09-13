@@ -35,7 +35,7 @@
     },
     methods:{
       navTo(path) {
-        this.$router.replace(path)
+        // this.$router.replace(path)
       }
     }
   }
